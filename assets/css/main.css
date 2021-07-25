@@ -1,0 +1,451 @@
+/* common css  */
+
+body{
+    margin: 0px auto;
+    padding: 0px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container{
+    
+    width: 90%;
+    margin: 0px auto;
+}
+
+
+.section-title{
+    text-align: center;
+}
+.section-title h4{
+    font-size: 18px;
+    color: #5E6282;
+    margin: 0px;
+}
+.section-title h2{
+    color: #14183E;
+    font-size: 30px;
+    margin-top: 10px;
+}
+
+
+/* header area  */
+header{
+    background-image: url('/assets/images/header-bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:top left; 
+}
+/* nav start  */
+nav{
+
+    display: flex;
+    justify-content: space-between;
+    padding: 47px 0px;
+}
+.nav-img{
+    Width: 114.91px;
+    Height: 33.99px;
+}
+
+.nav-menu a{
+    text-decoration: none;
+    margin-right: 30px;
+    color: #212832;
+    font-size: 13px;
+    text-transform: capitalize;
+
+}
+.nav-menu a:last-child{
+    margin-right: 0px;
+}
+.nav-menu a:nth-child(6){
+    border: 2px solid #212832;
+    padding: 10px 21px;
+    transition: border 0.2s ease-in-out;
+}
+.nav-menu a:nth-child(6):hover{
+    border: 2px solid #DF6951;
+    
+}
+
+/* hero area  */
+
+.hero-area{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.hero-img img{
+    width: 100%; 
+}
+.hero-content h5{
+    color: #DF6951;
+    font-size: 20px;
+    margin-bottom: 0px;
+    text-transform: uppercase;
+
+}
+.hero-content h2{
+   
+    color: #181E4B;
+    font-size: 56px;
+    line-height: 62px;
+    margin: 30px 0px 24px 0px;
+    text-transform: capitalize;
+}
+.hero-content p{
+    color: #5E6282;
+    font: 16px;
+    text-transform: capitalize;
+}
+
+/* hero button area  */
+.hero-button{
+    display: flex;
+}
+.btn-left{
+    padding: 15px 20px;
+    background: #F1A501;
+    box-shadow: 0px 20px 35px rgba(241, 165, 1, 0.15);
+    border-radius: 10px;
+    text-decoration: none;
+    font-size: 15px;
+    color: #ffffff;
+    margin-right: 40px;
+}
+.btn-right{
+    text-decoration: none;
+    padding: 15px 20px;
+    font-size: 17px;
+    color: #686D77;
+}
+.btn-right span{
+    margin-right: 20px;
+    padding: 15px 18px;
+    background: #DF6951;
+    border-radius: 50%;
+    box-shadow: 0px 15px 30px rgba(223, 105, 81, 0.3);
+}
+.btn-right span i{
+    color: #ffffff;
+}
+
+/* services area  */
+.service-area{
+    margin-top: 90px;
+    background-image: url(/assets/images/services-bg.png);
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: top right;
+}
+
+.services{
+    margin-top: 55px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-column-gap: 15px;
+}
+.service{
+    text-align: center;
+}
+.service img{
+    height: 92px;
+    width: 100px;
+}
+.service h4{
+    color: #1E1D4C;
+    font-size: 20px;
+    text-transform: capitalize;
+}
+.service p{
+    font-size: 14px;
+    color: #5E6282;
+    text-transform: none;
+}
+
+/* destination area  */
+
+.destination-area{
+    margin-top: 90px;
+    background-image: url('/assets/images/destonation-bg.png');
+    background-repeat: no-repeat;
+    background-position: right center;
+}
+.destinations{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 25px;
+    margin-top: 60px;
+}
+.destination{
+    box-shadow: 2px 2px 15px rgb(47 47 47 / 82%);
+    padding-bottom: 40px;
+}
+.destination img{
+    width: 100%;
+    height: 80%;
+}
+.destination p{
+    color: #5E6282;
+    font-size: 16px;
+    padding: 0px 15px;
+}
+.destination p i{
+    color: #000000;
+    margin-right: 15px;
+}
+.cost{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 15px;
+}
+.cost p{
+    color: #5E6282;
+    font-size: 18px;
+}
+
+/* booking and  trip area start  */
+.bookandtrip-area{
+    margin-top: 180px;
+}
+.bookandtrip{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-column-gap: 50px;
+    align-items: center;
+}
+.book-trip>.section-title{
+    text-align: start;
+    margin-bottom: 30px;
+}
+/* booking right side css */
+.booking{
+    display: flex;
+    margin-bottom: 40px;
+}
+.booking-content{
+    margin-left: 20px;
+}
+.booking-content h4{
+    color: #5E6282;
+    font-size: 16px;
+    margin: 0px 0px 4px  0px;
+}
+.booking-content p{
+    color: #5E6282;
+    font-size: 16px;
+    margin: 0px;
+}
+
+/* current booking css  */
+.curennt-trip{
+    padding: 25px;
+    width: 70%;
+    box-shadow: 1px 0px 15px #4240409f;
+    border-radius: 25px;
+    background-color: #ffffff;
+    position: relative;
+}
+.curennt-trip h4{
+    color: #080809;
+    font-size: 18px;
+    text-transform: capitalize;
+}
+.curennt-trip p{
+    color: #84829A;
+    font-size: 16px;
+    text-transform: capitalize;
+}
+.curennt-trip p span{
+    margin-left: 10px;
+}
+.curennt-tour-icon{
+    margin-top: 21px;
+}
+.curennt-tour-icon>span{
+    background: #F5F5F5;
+    padding: 15px;
+    border-radius: 50%;
+    margin-right: 18px;
+}
+.curennt-tour-icon>span>i{
+    color: #84829A;
+}
+.curennt-tour-people{
+    color: #84829A;
+    font-size: 16px;
+    margin-top: 30px;
+}
+.curennt-tour-people i{
+    margin-right: 15px;
+}
+
+/* ongoing status */
+
+.ongoing-status{
+    position: absolute;
+    top: 60%;
+    right: -25%;
+    display: flex;
+    background-color: #ffffff;
+    padding: 20px 0px;
+
+}
+.ongoing-img{
+    margin-right: 10px;
+}
+.ongoing-img img{
+    border-radius: 50%;
+
+}
+.ongoing-content p,h6{
+    margin: 0px;
+}
+.ongoing-content p{
+    color: #84829A;
+    font-size: 14px;
+}
+.ongoing-content span{
+    color: #080809;
+}
+.ongoing-content h6{
+    color: #080809;
+    font-size: 18px;
+}
+
+.process-bar{
+    margin-top: 10px;
+    width: 100%;
+    height: 5px;
+    background-color: #F5F5F5;
+    border-radius: 30px;
+}
+.process-status{
+    width: 40%;
+    height: 5px;
+    background-color: #8A79DF;
+}
+
+/* partnership area start  */
+.partnership-area{
+    margin-top: 80px;
+}
+
+.partnerships{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    grid-column-gap: 50px;
+    align-items: center;
+}
+.partnership img{
+    width: 100%;
+}
+
+/* subscribe form area  */
+.fontAwesome {
+    font-family: Helvetica, 'FontAwesome', sans-serif;
+  }
+
+.subscribe-form-area{
+    text-align: center;
+    padding: 80px 0px;
+    margin-top: 80px;
+    background-image: url(/assets/images/subscribe-bg-1.png),
+                        url(/assets/images/subscribe-bg-2.png);
+    
+    background-position: left center,
+                        right center;
+    background-repeat: no-repeat;
+
+}
+.subscribe-form-area h4{
+    color: #5E6282;
+    font-size: 30px;
+}
+.subscribe-form{
+    margin-top: 74px;
+}
+form input{
+    padding: 20px 100px 20px 50px;
+    box-shadow: 2px 2px 10px #6b6767;
+}
+input::placeholder{
+    font-size: 14px;
+    color: #39425D;
+    border: 0px;
+}
+.btn-subscribe{
+    background: linear-gradient(180deg, #FF946D 0%, #FF7D68 100%);
+    border-radius: 10px;
+    padding: 20px 40px;
+    color: #ffffff;
+    font-size: 17px;
+    text-decoration: none;
+}
+
+/* footer area css*/
+
+footer{
+    margin-top: 80px;
+    display: grid;
+    grid-template-columns: 3fr 2fr 2fr 2fr 3fr;
+    grid-column-gap: 15px;
+    align-items: start;
+    padding: 20px 30px;
+}
+.jadoo h4{
+    color: #181E4B;
+    font-size: 35px;
+    margin: 0px;
+}
+.jadoo p{
+    font-size: 13px;
+    color: #5E6282;
+}
+
+.company h6{
+    color: #080809;
+    font-size: 21px;
+}
+.company ul{
+
+    padding: 0px;
+}
+.company ul>li{
+    color: #5E6282;
+    font-size: 18px;
+    list-style: none;
+}
+.contact h6{
+    color: #080809;
+    font-size: 21px;
+}
+.contact ul{
+
+    padding: 0px;
+}
+.contact ul>li{
+    color: #5E6282;
+    font-size: 18px;
+    list-style: none;
+}
+.more h6{
+    color: #080809;
+    font-size: 21px;
+}
+.more ul{
+
+    padding: 0px;
+}
+.more ul>li{
+    color: #5E6282;
+    font-size: 18px;
+    list-style: none;
+}
+
+/* social-icon */
+.social-icon i{
+    margin-right: 25px;
+    color: #080809;
+    font-size: 17px;
+}
+
