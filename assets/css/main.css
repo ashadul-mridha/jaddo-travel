@@ -245,6 +245,9 @@ nav{
     background-color: #ffffff;
     position: relative;
 }
+.curennt-trip img{
+    width: 100%;
+}
 .curennt-trip h4{
     color: #080809;
     font-size: 18px;
@@ -447,5 +450,129 @@ footer{
     margin-right: 25px;
     color: #080809;
     font-size: 17px;
+}
+
+
+/* responsive mobile devices */
+
+/* mobile small device responsive */
+
+@media only screen and (max-width: 668px) {
+    
+   
+    .container{
+        width: 100%;
+        overflow: hidden;
+    }
+    nav{
+        display: none;
+    }
+    .hero-area {
+        grid-template-columns: repeat(1,1fr);
+        text-align: center;
+    }
+    .hero-img{
+        margin-top: 50px;
+    }
+    .hero-button {
+        display: flex;
+        justify-content: center;
+    }
+    .services{
+        grid-template-columns: repeat(2,1fr);
+    }
+    .destinations{
+        grid-template-columns: repeat(1,1fr);
+        grid-row-gap: 15px;
+    }
+    .bookandtrip-area{
+        margin-top: 30px;
+    }
+    .bookandtrip{
+        grid-template-columns: repeat(1,1fr);
+        justify-items: center;
+    }
+    .book-trip>.section-title {
+        text-align: center;
+    }
+    .curennt-trip{
+        margin-bottom: 30px;
+    }
+    .ongoing-status{
+        right: -5%;
+    }
+
+    .subscribe-form-area{
+        margin-top: 10px;
+    }
+
+    footer{
+        grid-template-columns: repeat(2,1fr);
+        justify-items: center;
+    }
+
+    .jadoo{
+        text-align: center;
+    }
+}
+
+/* mobile medium device responsive */
+
+@media only screen and (min-width: 669px) and (max-width: 992px) {
+    
+   
+    .container{
+        width: 100%;
+        overflow: hidden;
+    }
+    nav{
+        display: none;
+    }
+    .hero-area {
+        grid-template-columns: repeat(1,1fr);
+        text-align: center;
+    }
+    .hero-img{
+        margin-top: 50px;
+    }
+    .hero-button {
+        display: flex;
+        justify-content: center;
+    }
+    .services{
+        grid-template-columns: repeat(2,1fr);
+    }
+    .destinations{
+        grid-template-columns: repeat(2,1fr);
+        grid-row-gap: 15px;
+    }
+    .bookandtrip-area{
+        margin-top: 20px;
+    }
+    .bookandtrip{
+        grid-template-columns: repeat(1,1fr);
+        justify-items: center;
+    }
+    .book-trip>.section-title {
+        text-align: center;
+    }
+    .curennt-trip{
+        margin-bottom: 30px;
+    }
+    .ongoing-status{
+        right: -5%;
+    }
+
+    .subscribe-form-area{
+        margin-top: 10px;
+    }
+
+    footer{
+        grid-template-columns: repeat(2,1fr);
+        justify-items: center;
+    }
+    .jadoo{
+        text-align: center;
+    }
 }
 
